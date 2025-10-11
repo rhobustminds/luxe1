@@ -31,6 +31,34 @@
             box-sizing: border-box;
         }
 
+         /* Golden Scrollbar */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--black-light);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--gold);
+            border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--gold-bright);
+        }
+   /* Golden Text Selection */
+        ::selection {
+            background: var(--gold);
+            color: var(--black);
+        }
+
+        ::-moz-selection {
+            background: var(--gold);
+            color: var(--black);
+        }
+
         html {
             scroll-behavior: smooth;
         }
@@ -1788,3 +1816,4 @@
 
 
 </html>
+
