@@ -1,0 +1,12 @@
+{
+  "name": "luxe-pawlour",
+  "version": "1.0.0",
+  "description": "Luxe Pawlour website with email subscription",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/kv": "^0.2.3"
+  }
+}
